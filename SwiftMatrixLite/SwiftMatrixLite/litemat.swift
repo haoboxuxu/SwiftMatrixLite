@@ -1,5 +1,5 @@
 //
-//  matlite.swift
+//  litemat.swift
 //  SwiftMatrixLite
 //
 //  Created by 徐浩博 on 2020/4/25.
