@@ -7,71 +7,50 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E806D6D22453382300DB70C6 /* SwiftMatrixLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E806D6C82453382300DB70C6 /* SwiftMatrixLite.framework */; };
-		E806D6D92453382300DB70C6 /* SwiftMatrixLite.h in Headers */ = {isa = PBXBuildFile; fileRef = E806D6CB2453382300DB70C6 /* SwiftMatrixLite.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E806D6E42453386500DB70C6 /* litemat.swift in Sources */ = {isa = PBXBuildFile; fileRef = E806D6E32453386500DB70C6 /* litemat.swift */; };
+		E806D6F924534B8100DB70C6 /* SwiftMatrixLite.h in Headers */ = {isa = PBXBuildFile; fileRef = E806D6F724534B8100DB70C6 /* SwiftMatrixLite.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E806D70024534B9400DB70C6 /* matlite.swift in Sources */ = {isa = PBXBuildFile; fileRef = E806D6FF24534B9400DB70C6 /* matlite.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		E806D6D32453382300DB70C6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E806D6BF2453382300DB70C6 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E806D6C72453382300DB70C6;
-			remoteInfo = SwiftMatrixLite;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		E806D6C82453382300DB70C6 /* SwiftMatrixLite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftMatrixLite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E806D6CB2453382300DB70C6 /* SwiftMatrixLite.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftMatrixLite.h; sourceTree = "<group>"; };
-		E806D6CC2453382300DB70C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E806D6D12453382300DB70C6 /* SwiftMatrixLiteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftMatrixLiteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E806D6E32453386500DB70C6 /* litemat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = litemat.swift; sourceTree = "<group>"; };
+		E806D6F424534B8100DB70C6 /* SwiftMatrixLite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftMatrixLite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E806D6F724534B8100DB70C6 /* SwiftMatrixLite.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftMatrixLite.h; sourceTree = "<group>"; };
+		E806D6F824534B8100DB70C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E806D6FF24534B9400DB70C6 /* matlite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = matlite.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		E806D6C52453382300DB70C6 /* Frameworks */ = {
+		E806D6F124534B8100DB70C6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E806D6CE2453382300DB70C6 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E806D6D22453382300DB70C6 /* SwiftMatrixLite.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		E806D6BE2453382300DB70C6 = {
+		E806D6EA24534B8100DB70C6 = {
 			isa = PBXGroup;
 			children = (
-				E806D6CA2453382300DB70C6 /* SwiftMatrixLite */,
-				E806D6C92453382300DB70C6 /* Products */,
+				E806D6F624534B8100DB70C6 /* SwiftMatrixLite */,
+				E806D6F524534B8100DB70C6 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		E806D6C92453382300DB70C6 /* Products */ = {
+		E806D6F524534B8100DB70C6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E806D6C82453382300DB70C6 /* SwiftMatrixLite.framework */,
-				E806D6D12453382300DB70C6 /* SwiftMatrixLiteTests.xctest */,
+				E806D6F424534B8100DB70C6 /* SwiftMatrixLite.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E806D6CA2453382300DB70C6 /* SwiftMatrixLite */ = {
+		E806D6F624534B8100DB70C6 /* SwiftMatrixLite */ = {
 			isa = PBXGroup;
 			children = (
-				E806D6E32453386500DB70C6 /* litemat.swift */,
-				E806D6CB2453382300DB70C6 /* SwiftMatrixLite.h */,
-				E806D6CC2453382300DB70C6 /* Info.plist */,
+				E806D6F724534B8100DB70C6 /* SwiftMatrixLite.h */,
+				E806D6F824534B8100DB70C6 /* Info.plist */,
+				E806D6FF24534B9400DB70C6 /* matlite.swift */,
 			);
 			path = SwiftMatrixLite;
 			sourceTree = "<group>";
@@ -79,25 +58,25 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		E806D6C32453382300DB70C6 /* Headers */ = {
+		E806D6EF24534B8100DB70C6 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E806D6D92453382300DB70C6 /* SwiftMatrixLite.h in Headers */,
+				E806D6F924534B8100DB70C6 /* SwiftMatrixLite.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		E806D6C72453382300DB70C6 /* SwiftMatrixLite */ = {
+		E806D6F324534B8100DB70C6 /* SwiftMatrixLite */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E806D6DC2453382300DB70C6 /* Build configuration list for PBXNativeTarget "SwiftMatrixLite" */;
+			buildConfigurationList = E806D6FC24534B8100DB70C6 /* Build configuration list for PBXNativeTarget "SwiftMatrixLite" */;
 			buildPhases = (
-				E806D6C32453382300DB70C6 /* Headers */,
-				E806D6C42453382300DB70C6 /* Sources */,
-				E806D6C52453382300DB70C6 /* Frameworks */,
-				E806D6C62453382300DB70C6 /* Resources */,
+				E806D6EF24534B8100DB70C6 /* Headers */,
+				E806D6F024534B8100DB70C6 /* Sources */,
+				E806D6F124534B8100DB70C6 /* Frameworks */,
+				E806D6F224534B8100DB70C6 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -105,47 +84,25 @@
 			);
 			name = SwiftMatrixLite;
 			productName = SwiftMatrixLite;
-			productReference = E806D6C82453382300DB70C6 /* SwiftMatrixLite.framework */;
+			productReference = E806D6F424534B8100DB70C6 /* SwiftMatrixLite.framework */;
 			productType = "com.apple.product-type.framework";
-		};
-		E806D6D02453382300DB70C6 /* SwiftMatrixLiteTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E806D6DF2453382300DB70C6 /* Build configuration list for PBXNativeTarget "SwiftMatrixLiteTests" */;
-			buildPhases = (
-				E806D6CD2453382300DB70C6 /* Sources */,
-				E806D6CE2453382300DB70C6 /* Frameworks */,
-				E806D6CF2453382300DB70C6 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E806D6D42453382300DB70C6 /* PBXTargetDependency */,
-			);
-			name = SwiftMatrixLiteTests;
-			productName = SwiftMatrixLiteTests;
-			productReference = E806D6D12453382300DB70C6 /* SwiftMatrixLiteTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		E806D6BF2453382300DB70C6 /* Project object */ = {
+		E806D6EB24534B8100DB70C6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1140;
 				LastUpgradeCheck = 1140;
 				ORGANIZATIONNAME = "徐浩博";
 				TargetAttributes = {
-					E806D6C72453382300DB70C6 = {
+					E806D6F324534B8100DB70C6 = {
 						CreatedOnToolsVersion = 11.4.1;
 						LastSwiftMigration = 1140;
 					};
-					E806D6D02453382300DB70C6 = {
-						CreatedOnToolsVersion = 11.4.1;
-					};
 				};
 			};
-			buildConfigurationList = E806D6C22453382300DB70C6 /* Build configuration list for PBXProject "SwiftMatrixLite" */;
+			buildConfigurationList = E806D6EE24534B8100DB70C6 /* Build configuration list for PBXProject "SwiftMatrixLite" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -153,26 +110,18 @@
 				en,
 				Base,
 			);
-			mainGroup = E806D6BE2453382300DB70C6;
-			productRefGroup = E806D6C92453382300DB70C6 /* Products */;
+			mainGroup = E806D6EA24534B8100DB70C6;
+			productRefGroup = E806D6F524534B8100DB70C6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E806D6C72453382300DB70C6 /* SwiftMatrixLite */,
-				E806D6D02453382300DB70C6 /* SwiftMatrixLiteTests */,
+				E806D6F324534B8100DB70C6 /* SwiftMatrixLite */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		E806D6C62453382300DB70C6 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E806D6CF2453382300DB70C6 /* Resources */ = {
+		E806D6F224534B8100DB70C6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -182,33 +131,18 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		E806D6C42453382300DB70C6 /* Sources */ = {
+		E806D6F024534B8100DB70C6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E806D6E42453386500DB70C6 /* litemat.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E806D6CD2453382300DB70C6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				E806D70024534B9400DB70C6 /* matlite.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		E806D6D42453382300DB70C6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = E806D6C72453382300DB70C6 /* SwiftMatrixLite */;
-			targetProxy = E806D6D32453382300DB70C6 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin XCBuildConfiguration section */
-		E806D6DA2453382300DB70C6 /* Debug */ = {
+		E806D6FA24534B8100DB70C6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -271,7 +205,7 @@
 			};
 			name = Debug;
 		};
-		E806D6DB2453382300DB70C6 /* Release */ = {
+		E806D6FB24534B8100DB70C6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -328,7 +262,7 @@
 			};
 			name = Release;
 		};
-		E806D6DD2453382300DB70C6 /* Debug */ = {
+		E806D6FD24534B8100DB70C6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
@@ -354,7 +288,7 @@
 			};
 			name = Debug;
 		};
-		E806D6DE2453382300DB70C6 /* Release */ = {
+		E806D6FE24534B8100DB70C6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
@@ -379,75 +313,28 @@
 			};
 			name = Release;
 		};
-		E806D6E02453382300DB70C6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = V32BKVPBTJ;
-				INFOPLIST_FILE = SwiftMatrixLiteTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = haoboxuxu.top.SwiftMatrixLiteTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		E806D6E12453382300DB70C6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = V32BKVPBTJ;
-				INFOPLIST_FILE = SwiftMatrixLiteTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = haoboxuxu.top.SwiftMatrixLiteTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E806D6C22453382300DB70C6 /* Build configuration list for PBXProject "SwiftMatrixLite" */ = {
+		E806D6EE24534B8100DB70C6 /* Build configuration list for PBXProject "SwiftMatrixLite" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E806D6DA2453382300DB70C6 /* Debug */,
-				E806D6DB2453382300DB70C6 /* Release */,
+				E806D6FA24534B8100DB70C6 /* Debug */,
+				E806D6FB24534B8100DB70C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E806D6DC2453382300DB70C6 /* Build configuration list for PBXNativeTarget "SwiftMatrixLite" */ = {
+		E806D6FC24534B8100DB70C6 /* Build configuration list for PBXNativeTarget "SwiftMatrixLite" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E806D6DD2453382300DB70C6 /* Debug */,
-				E806D6DE2453382300DB70C6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E806D6DF2453382300DB70C6 /* Build configuration list for PBXNativeTarget "SwiftMatrixLiteTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E806D6E02453382300DB70C6 /* Debug */,
-				E806D6E12453382300DB70C6 /* Release */,
+				E806D6FD24534B8100DB70C6 /* Debug */,
+				E806D6FE24534B8100DB70C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = E806D6BF2453382300DB70C6 /* Project object */;
+	rootObject = E806D6EB24534B8100DB70C6 /* Project object */;
 }
