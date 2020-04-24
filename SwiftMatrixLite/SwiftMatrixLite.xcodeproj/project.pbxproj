@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		E806D6D22453382300DB70C6 /* SwiftMatrixLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E806D6C82453382300DB70C6 /* SwiftMatrixLite.framework */; };
-		E806D6D72453382300DB70C6 /* SwiftMatrixLiteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E806D6D62453382300DB70C6 /* SwiftMatrixLiteTests.swift */; };
 		E806D6D92453382300DB70C6 /* SwiftMatrixLite.h in Headers */ = {isa = PBXBuildFile; fileRef = E806D6CB2453382300DB70C6 /* SwiftMatrixLite.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E806D6E42453386500DB70C6 /* litemat.swift in Sources */ = {isa = PBXBuildFile; fileRef = E806D6E32453386500DB70C6 /* litemat.swift */; };
 /* End PBXBuildFile section */
@@ -28,8 +27,6 @@
 		E806D6CB2453382300DB70C6 /* SwiftMatrixLite.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftMatrixLite.h; sourceTree = "<group>"; };
 		E806D6CC2453382300DB70C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E806D6D12453382300DB70C6 /* SwiftMatrixLiteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftMatrixLiteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E806D6D62453382300DB70C6 /* SwiftMatrixLiteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftMatrixLiteTests.swift; sourceTree = "<group>"; };
-		E806D6D82453382300DB70C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E806D6E32453386500DB70C6 /* litemat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = litemat.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -56,7 +53,6 @@
 			isa = PBXGroup;
 			children = (
 				E806D6CA2453382300DB70C6 /* SwiftMatrixLite */,
-				E806D6D52453382300DB70C6 /* SwiftMatrixLiteTests */,
 				E806D6C92453382300DB70C6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -78,15 +74,6 @@
 				E806D6CC2453382300DB70C6 /* Info.plist */,
 			);
 			path = SwiftMatrixLite;
-			sourceTree = "<group>";
-		};
-		E806D6D52453382300DB70C6 /* SwiftMatrixLiteTests */ = {
-			isa = PBXGroup;
-			children = (
-				E806D6D62453382300DB70C6 /* SwiftMatrixLiteTests.swift */,
-				E806D6D82453382300DB70C6 /* Info.plist */,
-			);
-			path = SwiftMatrixLiteTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,7 +194,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E806D6D72453382300DB70C6 /* SwiftMatrixLiteTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
