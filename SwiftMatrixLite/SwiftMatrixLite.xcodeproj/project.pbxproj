@@ -11,6 +11,7 @@
 		E806D6D72453382300DB70C6 /* SwiftMatrixLiteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E806D6D62453382300DB70C6 /* SwiftMatrixLiteTests.swift */; };
 		E806D6D92453382300DB70C6 /* SwiftMatrixLite.h in Headers */ = {isa = PBXBuildFile; fileRef = E806D6CB2453382300DB70C6 /* SwiftMatrixLite.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E806D6E42453386500DB70C6 /* litemat.swift in Sources */ = {isa = PBXBuildFile; fileRef = E806D6E32453386500DB70C6 /* litemat.swift */; };
+		E806D6E52453428800DB70C6 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E806D6CC2453382300DB70C6 /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,7 +74,7 @@
 		E806D6CA2453382300DB70C6 /* SwiftMatrixLite */ = {
 			isa = PBXGroup;
 			children = (
-				E806D6E22453382F00DB70C6 /* SwiftMatrixLite */,
+				E806D6E32453386500DB70C6 /* litemat.swift */,
 				E806D6CB2453382300DB70C6 /* SwiftMatrixLite.h */,
 				E806D6CC2453382300DB70C6 /* Info.plist */,
 			);
@@ -87,14 +88,6 @@
 				E806D6D82453382300DB70C6 /* Info.plist */,
 			);
 			path = SwiftMatrixLiteTests;
-			sourceTree = "<group>";
-		};
-		E806D6E22453382F00DB70C6 /* SwiftMatrixLite */ = {
-			isa = PBXGroup;
-			children = (
-				E806D6E32453386500DB70C6 /* litemat.swift */,
-			);
-			path = SwiftMatrixLite;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -190,6 +183,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E806D6E52453428800DB70C6 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
