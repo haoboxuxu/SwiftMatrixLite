@@ -7,6 +7,9 @@ Pod::Spec.new do |spec|
   spec.homepage     = "https://github.com/haoboxuxu/SwiftMatrixLite"
   spec.license      = "MIT"
   spec.author       = { "haoboxuxu" => "haoboxuxu@icloud.com" }
-  spec.platform     = :ios, "12.0"
+  spec.platform     = :ios, "13.4"
   spec.source       = { :git => "https://github.com/haoboxuxu/SwiftMatrixLite.git", :tag => "1.0.0" }
+  # spec.source_files = "SwiftMatrixLite/SwiftMatrixLite/mat/*.{h,m,swift}"
+  # spec.source_files = 'SwiftMatrixLite/SwiftMatrixLite/*.{h,swift}'
+  spec.source_files = "SwiftMatrixLite/**/*.{h,m}"
 end
