@@ -48,9 +48,17 @@
 		E806D78E245365EA00DB70C6 /* SwiftMatrixLite */ = {
 			isa = PBXGroup;
 			children = (
-				E806D7972453693100DB70C6 /* litemat.swift */,
+				E87BB7B3245463B70073D1FD /* SwiftMatrixLite */,
 				E806D78F245365EA00DB70C6 /* SwiftMatrixLite.h */,
 				E806D790245365EA00DB70C6 /* Info.plist */,
+			);
+			path = SwiftMatrixLite;
+			sourceTree = "<group>";
+		};
+		E87BB7B3245463B70073D1FD /* SwiftMatrixLite */ = {
+			isa = PBXGroup;
+			children = (
+				E806D7972453693100DB70C6 /* litemat.swift */,
 			);
 			path = SwiftMatrixLite;
 			sourceTree = "<group>";
