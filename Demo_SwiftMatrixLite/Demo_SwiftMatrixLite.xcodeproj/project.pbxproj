@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C99BFE22D802F5982F068242 /* Pods_Demo_SwiftMatrixLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF95D80F8EB20A930FCA053F /* Pods_Demo_SwiftMatrixLite.framework */; };
 		E87BB7A0245435700073D1FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87BB79F245435700073D1FD /* AppDelegate.swift */; };
 		E87BB7A2245435700073D1FD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87BB7A1245435700073D1FD /* SceneDelegate.swift */; };
 		E87BB7A4245435700073D1FD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87BB7A3245435700073D1FD /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		82A0AB13C82A0DA8D41D4B33 /* Pods-Demo_SwiftMatrixLite.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo_SwiftMatrixLite.debug.xcconfig"; path = "Target Support Files/Pods-Demo_SwiftMatrixLite/Pods-Demo_SwiftMatrixLite.debug.xcconfig"; sourceTree = "<group>"; };
 		E87BB79C245435700073D1FD /* Demo_SwiftMatrixLite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo_SwiftMatrixLite.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E87BB79F245435700073D1FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E87BB7A1245435700073D1FD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +26,8 @@
 		E87BB7A8245435720073D1FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E87BB7AB245435720073D1FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E87BB7AD245435720073D1FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB9F607729B32ECF63DFFC29 /* Pods-Demo_SwiftMatrixLite.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo_SwiftMatrixLite.release.xcconfig"; path = "Target Support Files/Pods-Demo_SwiftMatrixLite/Pods-Demo_SwiftMatrixLite.release.xcconfig"; sourceTree = "<group>"; };
+		FF95D80F8EB20A930FCA053F /* Pods_Demo_SwiftMatrixLite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Demo_SwiftMatrixLite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +35,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C99BFE22D802F5982F068242 /* Pods_Demo_SwiftMatrixLite.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4B4BF92AF09C53E493E5784A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				82A0AB13C82A0DA8D41D4B33 /* Pods-Demo_SwiftMatrixLite.debug.xcconfig */,
+				FB9F607729B32ECF63DFFC29 /* Pods-Demo_SwiftMatrixLite.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		E87BB793245435700073D1FD = {
 			isa = PBXGroup;
 			children = (
 				E87BB79E245435700073D1FD /* Demo_SwiftMatrixLite */,
 				E87BB79D245435700073D1FD /* Products */,
+				4B4BF92AF09C53E493E5784A /* Pods */,
+				F035B2330B4D8F9FDA0AC86E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +84,14 @@
 			path = Demo_SwiftMatrixLite;
 			sourceTree = "<group>";
 		};
+		F035B2330B4D8F9FDA0AC86E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF95D80F8EB20A930FCA053F /* Pods_Demo_SwiftMatrixLite.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,6 +99,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E87BB7B0245435720073D1FD /* Build configuration list for PBXNativeTarget "Demo_SwiftMatrixLite" */;
 			buildPhases = (
+				82516C9D185878381F60757E /* [CP] Check Pods Manifest.lock */,
 				E87BB798245435700073D1FD /* Sources */,
 				E87BB799245435700073D1FD /* Frameworks */,
 				E87BB79A245435700073D1FD /* Resources */,
@@ -132,6 +158,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		82516C9D185878381F60757E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Demo_SwiftMatrixLite-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E87BB798245435700073D1FD /* Sources */ = {
@@ -282,6 +333,7 @@
 		};
 		E87BB7B1245435720073D1FD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82A0AB13C82A0DA8D41D4B33 /* Pods-Demo_SwiftMatrixLite.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +352,7 @@
 		};
 		E87BB7B2245435720073D1FD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB9F607729B32ECF63DFFC29 /* Pods-Demo_SwiftMatrixLite.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

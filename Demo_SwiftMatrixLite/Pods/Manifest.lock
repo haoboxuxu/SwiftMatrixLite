@@ -1,0 +1,16 @@
+PODS:
+  - SwiftMatrixLite (1.0.0)
+
+DEPENDENCIES:
+  - SwiftMatrixLite (from `/Users/xuhaobo/Documents/github/SwiftMatrixLite/SwiftMatrixLite`)
+
+EXTERNAL SOURCES:
+  SwiftMatrixLite:
+    :path: "/Users/xuhaobo/Documents/github/SwiftMatrixLite/SwiftMatrixLite"
+
+SPEC CHECKSUMS:
+  SwiftMatrixLite: 9c56b22c157281f4c225d32d6416c4650e64bef5
+
+PODFILE CHECKSUM: 241e1c6c6f81ccf399be7f2c1bf1bfdf09dbcd2d
+
+COCOAPODS: 1.9.1

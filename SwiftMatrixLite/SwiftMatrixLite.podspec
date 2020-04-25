@@ -11,5 +11,5 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => "https://github.com/haoboxuxu/SwiftMatrixLite.git", :tag => "1.0.0" }
   # spec.source_files = "SwiftMatrixLite/SwiftMatrixLite/mat/*.{h,m,swift}"
   # spec.source_files = 'SwiftMatrixLite/SwiftMatrixLite/*.{h,swift}'
-  spec.source_files = "SwiftMatrixLite/**/*.{h,m}"
+  spec.source_files = "SwiftMatrixLite/SwiftMatrixLite/*.{h,m,swift}"
 end

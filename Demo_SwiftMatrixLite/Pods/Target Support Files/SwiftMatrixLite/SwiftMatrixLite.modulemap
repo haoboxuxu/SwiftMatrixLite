@@ -1,0 +1,6 @@
+framework module SwiftMatrixLite {
+  umbrella header "SwiftMatrixLite-umbrella.h"
+
+  export *
+  module * { export * }
+}

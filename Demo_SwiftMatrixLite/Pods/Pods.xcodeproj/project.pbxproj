@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		67AAC47A4489FB29BF0F707006A8D09B /* SwiftMatrixLite */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = AE1AF01E30576F7CB84C60D601828331 /* Build configuration list for PBXAggregateTarget "SwiftMatrixLite" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = SwiftMatrixLite;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		B33B73FA4D03AADDF28B87A099619666 /* Pods-Demo_SwiftMatrixLite-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FDEB4FF7C91C9EE914A88F5D8D5FC9D0 /* Pods-Demo_SwiftMatrixLite-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EAE6F4D15760FB7474158790E1C18362 /* Pods-Demo_SwiftMatrixLite-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D82FABF9ACAC2B371BEE49C0CA95879E /* Pods-Demo_SwiftMatrixLite-dummy.m */; };
+		EF9E8F8BD59B3FAE27F371FFAB4A38E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0B50C31A9D6FADDD380BF1DDE6CA71D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67AAC47A4489FB29BF0F707006A8D09B;
+			remoteInfo = SwiftMatrixLite;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		282813FC145535FF361E8318DBCB3F35 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		2AED7F27578D8AB73D095784958AA2B2 /* Pods-Demo_SwiftMatrixLite.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Demo_SwiftMatrixLite.debug.xcconfig"; sourceTree = "<group>"; };
+		2C184DDDE43DEB89836892E90F285AD5 /* Pods-Demo_SwiftMatrixLite-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Demo_SwiftMatrixLite-acknowledgements.markdown"; sourceTree = "<group>"; };
+		30C10ACADA76F4656D6393BDE838480F /* Pods-Demo_SwiftMatrixLite-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Demo_SwiftMatrixLite-Info.plist"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3D5D3095F4B2DA261A02B73F1603033B /* Pods-Demo_SwiftMatrixLite.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Demo_SwiftMatrixLite.modulemap"; sourceTree = "<group>"; };
+		4803B14500E587CFCAAD93156067F0C4 /* SwiftMatrixLite.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftMatrixLite.release.xcconfig; sourceTree = "<group>"; };
+		48A088C74159C6B9BA52CC210EC06132 /* SwiftMatrixLite.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SwiftMatrixLite.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		87A329274E2DFAF5284431D7C5E1FE45 /* Pods-Demo_SwiftMatrixLite-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Demo_SwiftMatrixLite-acknowledgements.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9FBFA8BAB245207FFC85B0B93336339E /* Pods-Demo_SwiftMatrixLite.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Demo_SwiftMatrixLite.release.xcconfig"; sourceTree = "<group>"; };
+		B76772D64629DD37ABA46B8F59D53505 /* Pods_Demo_SwiftMatrixLite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Demo_SwiftMatrixLite.framework; path = "Pods-Demo_SwiftMatrixLite.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D82FABF9ACAC2B371BEE49C0CA95879E /* Pods-Demo_SwiftMatrixLite-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Demo_SwiftMatrixLite-dummy.m"; sourceTree = "<group>"; };
+		F5E421C454BEA7F3E63BC5B667F44F94 /* SwiftMatrixLite.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftMatrixLite.debug.xcconfig; sourceTree = "<group>"; };
+		FDEB4FF7C91C9EE914A88F5D8D5FC9D0 /* Pods-Demo_SwiftMatrixLite-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Demo_SwiftMatrixLite-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A355A981CCFF817A3E40A1A1AB037F54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF9E8F8BD59B3FAE27F371FFAB4A38E7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00DA28CD53CC38F2D5EA51A9C92795C3 /* Pods-Demo_SwiftMatrixLite */ = {
+			isa = PBXGroup;
+			children = (
+				3D5D3095F4B2DA261A02B73F1603033B /* Pods-Demo_SwiftMatrixLite.modulemap */,
+				2C184DDDE43DEB89836892E90F285AD5 /* Pods-Demo_SwiftMatrixLite-acknowledgements.markdown */,
+				87A329274E2DFAF5284431D7C5E1FE45 /* Pods-Demo_SwiftMatrixLite-acknowledgements.plist */,
+				D82FABF9ACAC2B371BEE49C0CA95879E /* Pods-Demo_SwiftMatrixLite-dummy.m */,
+				30C10ACADA76F4656D6393BDE838480F /* Pods-Demo_SwiftMatrixLite-Info.plist */,
+				FDEB4FF7C91C9EE914A88F5D8D5FC9D0 /* Pods-Demo_SwiftMatrixLite-umbrella.h */,
+				2AED7F27578D8AB73D095784958AA2B2 /* Pods-Demo_SwiftMatrixLite.debug.xcconfig */,
+				9FBFA8BAB245207FFC85B0B93336339E /* Pods-Demo_SwiftMatrixLite.release.xcconfig */,
+			);
+			name = "Pods-Demo_SwiftMatrixLite";
+			path = "Target Support Files/Pods-Demo_SwiftMatrixLite";
+			sourceTree = "<group>";
+		};
+		2C353E22044D691C966316B7F6E08007 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B76772D64629DD37ABA46B8F59D53505 /* Pods_Demo_SwiftMatrixLite.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4889341900F82DF0067EAE898B7BA4E9 /* SwiftMatrixLite */ = {
+			isa = PBXGroup;
+			children = (
+				65E7AA6753450590A86EAA2ABD2A2210 /* Pod */,
+				9FEDE66F518D35EBD49B4F3DB66C40AC /* Support Files */,
+			);
+			name = SwiftMatrixLite;
+			path = /Users/xuhaobo/Documents/github/SwiftMatrixLite/SwiftMatrixLite;
+			sourceTree = "<absolute>";
+		};
+		5CC9F8BF8B6A0AA74CC866F8BAB1328E /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4889341900F82DF0067EAE898B7BA4E9 /* SwiftMatrixLite */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		65E7AA6753450590A86EAA2ABD2A2210 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				282813FC145535FF361E8318DBCB3F35 /* LICENSE */,
+				48A088C74159C6B9BA52CC210EC06132 /* SwiftMatrixLite.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		9FEDE66F518D35EBD49B4F3DB66C40AC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F5E421C454BEA7F3E63BC5B667F44F94 /* SwiftMatrixLite.debug.xcconfig */,
+				4803B14500E587CFCAAD93156067F0C4 /* SwiftMatrixLite.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Demo_SwiftMatrixLite/Pods/Target Support Files/SwiftMatrixLite";
+			sourceTree = "<group>";
+		};
+		ACDCF4E00111DA71CAD5A432106BC5F3 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				00DA28CD53CC38F2D5EA51A9C92795C3 /* Pods-Demo_SwiftMatrixLite */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				5CC9F8BF8B6A0AA74CC866F8BAB1328E /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				2C353E22044D691C966316B7F6E08007 /* Products */,
+				ACDCF4E00111DA71CAD5A432106BC5F3 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C2530FF10DC938E875580F43213E2405 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B33B73FA4D03AADDF28B87A099619666 /* Pods-Demo_SwiftMatrixLite-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4BA64A8A05DC11B9C2C76F038179AE41 /* Pods-Demo_SwiftMatrixLite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF658858226EC92E425A22128FE26104 /* Build configuration list for PBXNativeTarget "Pods-Demo_SwiftMatrixLite" */;
+			buildPhases = (
+				C2530FF10DC938E875580F43213E2405 /* Headers */,
+				DF39914301B8A253A2059AF8A7C16F78 /* Sources */,
+				A355A981CCFF817A3E40A1A1AB037F54 /* Frameworks */,
+				2A920DC3DA0407AA5AE973EAA50568E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECFD871098EADB85061E463AA5E15B36 /* PBXTargetDependency */,
+			);
+			name = "Pods-Demo_SwiftMatrixLite";
+			productName = "Pods-Demo_SwiftMatrixLite";
+			productReference = B76772D64629DD37ABA46B8F59D53505 /* Pods_Demo_SwiftMatrixLite.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 2C353E22044D691C966316B7F6E08007 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4BA64A8A05DC11B9C2C76F038179AE41 /* Pods-Demo_SwiftMatrixLite */,
+				67AAC47A4489FB29BF0F707006A8D09B /* SwiftMatrixLite */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A920DC3DA0407AA5AE973EAA50568E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF39914301B8A253A2059AF8A7C16F78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAE6F4D15760FB7474158790E1C18362 /* Pods-Demo_SwiftMatrixLite-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ECFD871098EADB85061E463AA5E15B36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftMatrixLite;
+			target = 67AAC47A4489FB29BF0F707006A8D09B /* SwiftMatrixLite */;
+			targetProxy = 0B50C31A9D6FADDD380BF1DDE6CA71D4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1D7A02D7AA68BACBBB0BC68161E494AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FBFA8BAB245207FFC85B0B93336339E /* Pods-Demo_SwiftMatrixLite.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Demo_SwiftMatrixLite/Pods-Demo_SwiftMatrixLite-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Demo_SwiftMatrixLite/Pods-Demo_SwiftMatrixLite.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		45BCD0FA56CEAB50ED6C5AE162D98A9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4803B14500E587CFCAAD93156067F0C4 /* SwiftMatrixLite.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6C61D818ACD3C2C116FED6A9C67E91B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		7DC5F11AFBEAE473E8D3C24A2D11338D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		C3F97CA80762CCAAD1D22250B76FB316 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5E421C454BEA7F3E63BC5B667F44F94 /* SwiftMatrixLite.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D3EC65EEF86D68038935153AF6EE9DEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AED7F27578D8AB73D095784958AA2B2 /* Pods-Demo_SwiftMatrixLite.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Demo_SwiftMatrixLite/Pods-Demo_SwiftMatrixLite-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Demo_SwiftMatrixLite/Pods-Demo_SwiftMatrixLite.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C61D818ACD3C2C116FED6A9C67E91B4 /* Debug */,
+				7DC5F11AFBEAE473E8D3C24A2D11338D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE1AF01E30576F7CB84C60D601828331 /* Build configuration list for PBXAggregateTarget "SwiftMatrixLite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3F97CA80762CCAAD1D22250B76FB316 /* Debug */,
+				45BCD0FA56CEAB50ED6C5AE162D98A9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF658858226EC92E425A22128FE26104 /* Build configuration list for PBXNativeTarget "Pods-Demo_SwiftMatrixLite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3EC65EEF86D68038935153AF6EE9DEA /* Debug */,
+				1D7A02D7AA68BACBBB0BC68161E494AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
