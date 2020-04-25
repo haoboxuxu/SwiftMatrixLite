@@ -10,7 +10,6 @@
 #endif
 #endif
 
-#import "SwiftMatrixLite.h"
 
 FOUNDATION_EXPORT double SwiftMatrixLiteVersionNumber;
 FOUNDATION_EXPORT const unsigned char SwiftMatrixLiteVersionString[];

@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "67AAC47A4489FB29BF0F707006A8D09B"
-               BuildableName = "SwiftMatrixLite"
+               BuildableName = "SwiftMatrixLite.framework"
                BlueprintName = "SwiftMatrixLite"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>

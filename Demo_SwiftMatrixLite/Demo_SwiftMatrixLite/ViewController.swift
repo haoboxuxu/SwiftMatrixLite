@@ -7,12 +7,18 @@
 //
 
 import UIKit
+import SwiftMatrixLite
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        let a = newMat(row: 3, col: 3, initNum: 0.0)
+        let b = randomMat(row: 3, col: 3)
+        let c = matAdd(a, b)
+        
+        print(c)
     }
 
 

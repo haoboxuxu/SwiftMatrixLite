@@ -6,5 +6,5 @@ target 'Demo_SwiftMatrixLite' do
   use_frameworks!
 
   # Pods for Demo_SwiftMatrixLite
-  pod 'SwiftMatrixLite', :path => "/Users/xuhaobo/Documents/github/SwiftMatrixLite/SwiftMatrixLite"
+  pod 'SwiftMatrixLite', :path => "../SwiftMatrixLite"
 end

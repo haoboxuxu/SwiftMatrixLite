@@ -6,21 +6,13 @@
 	objectVersion = 50;
 	objects = {
 
-/* Begin PBXAggregateTarget section */
-		67AAC47A4489FB29BF0F707006A8D09B /* SwiftMatrixLite */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = AE1AF01E30576F7CB84C60D601828331 /* Build configuration list for PBXAggregateTarget "SwiftMatrixLite" */;
-			buildPhases = (
-			);
-			dependencies = (
-			);
-			name = SwiftMatrixLite;
-		};
-/* End PBXAggregateTarget section */
-
 /* Begin PBXBuildFile section */
-		B33B73FA4D03AADDF28B87A099619666 /* Pods-Demo_SwiftMatrixLite-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FDEB4FF7C91C9EE914A88F5D8D5FC9D0 /* Pods-Demo_SwiftMatrixLite-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EAE6F4D15760FB7474158790E1C18362 /* Pods-Demo_SwiftMatrixLite-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D82FABF9ACAC2B371BEE49C0CA95879E /* Pods-Demo_SwiftMatrixLite-dummy.m */; };
+		2E9466874AE572530F7B66D042B2935C /* SwiftMatrixLite-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 93C9B853E0470CEE035BD9F1E1BC0CEC /* SwiftMatrixLite-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C286E0E08CABE62BDFF2977E0645BD6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		626449621E4C68730BF99FFE56E4E1FF /* litemat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E534450901AD2BF3EF043CF85958A3C /* litemat.swift */; };
+		8E099E5ACD960B6A30D6DFEE77AB4E74 /* SwiftMatrixLite-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FDA75052CC4F0E5C848F7E68596645B /* SwiftMatrixLite-dummy.m */; };
+		B33B73FA4D03AADDF28B87A099619666 /* Pods-Demo_SwiftMatrixLite-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F93E82A685B56A1A728D117A10D6AE0 /* Pods-Demo_SwiftMatrixLite-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EAE6F4D15760FB7474158790E1C18362 /* Pods-Demo_SwiftMatrixLite-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D202BD333B5DB109740ADA04FBEA4DB6 /* Pods-Demo_SwiftMatrixLite-dummy.m */; };
 		EF9E8F8BD59B3FAE27F371FFAB4A38E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -35,21 +27,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		282813FC145535FF361E8318DBCB3F35 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		2AED7F27578D8AB73D095784958AA2B2 /* Pods-Demo_SwiftMatrixLite.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Demo_SwiftMatrixLite.debug.xcconfig"; sourceTree = "<group>"; };
-		2C184DDDE43DEB89836892E90F285AD5 /* Pods-Demo_SwiftMatrixLite-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Demo_SwiftMatrixLite-acknowledgements.markdown"; sourceTree = "<group>"; };
-		30C10ACADA76F4656D6393BDE838480F /* Pods-Demo_SwiftMatrixLite-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Demo_SwiftMatrixLite-Info.plist"; sourceTree = "<group>"; };
+		101005955433C2044E9C519B2B6D4E3E /* Pods-Demo_SwiftMatrixLite.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Demo_SwiftMatrixLite.debug.xcconfig"; sourceTree = "<group>"; };
+		21B0C51ABC4F3FF6F9FFD15354C2046D /* SwiftMatrixLite-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftMatrixLite-Info.plist"; sourceTree = "<group>"; };
+		2E534450901AD2BF3EF043CF85958A3C /* litemat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = litemat.swift; path = SwiftMatrixLite/SwiftMatrixLite/litemat.swift; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		3D5D3095F4B2DA261A02B73F1603033B /* Pods-Demo_SwiftMatrixLite.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Demo_SwiftMatrixLite.modulemap"; sourceTree = "<group>"; };
-		4803B14500E587CFCAAD93156067F0C4 /* SwiftMatrixLite.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftMatrixLite.release.xcconfig; sourceTree = "<group>"; };
-		48A088C74159C6B9BA52CC210EC06132 /* SwiftMatrixLite.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SwiftMatrixLite.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		87A329274E2DFAF5284431D7C5E1FE45 /* Pods-Demo_SwiftMatrixLite-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Demo_SwiftMatrixLite-acknowledgements.plist"; sourceTree = "<group>"; };
+		3383E8CCFF2DE79196DEBE863A379C91 /* SwiftMatrixLite-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftMatrixLite-prefix.pch"; sourceTree = "<group>"; };
+		4F93E82A685B56A1A728D117A10D6AE0 /* Pods-Demo_SwiftMatrixLite-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Demo_SwiftMatrixLite-umbrella.h"; sourceTree = "<group>"; };
+		5DCB8593A48EDF0653B6AF7F278C7C63 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		678F8BEB8A20A8C36DB5648CC1F88357 /* SwiftMatrixLite.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftMatrixLite.release.xcconfig; sourceTree = "<group>"; };
+		7980EEDE5D229688E451E003F4F81D9F /* SwiftMatrixLite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftMatrixLite.framework; path = SwiftMatrixLite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F16AFEDF8C128AC47D8108AF3CFD4AB /* Pods-Demo_SwiftMatrixLite-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Demo_SwiftMatrixLite-frameworks.sh"; sourceTree = "<group>"; };
+		8FDA75052CC4F0E5C848F7E68596645B /* SwiftMatrixLite-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftMatrixLite-dummy.m"; sourceTree = "<group>"; };
+		8FE59213635C7BEEE8FE4A47FE4E8277 /* SwiftMatrixLite.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SwiftMatrixLite.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9057DD8840507B8725DEA8FBFDA6A48F /* Pods-Demo_SwiftMatrixLite-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Demo_SwiftMatrixLite-acknowledgements.plist"; sourceTree = "<group>"; };
+		93C9B853E0470CEE035BD9F1E1BC0CEC /* SwiftMatrixLite-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftMatrixLite-umbrella.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9FBFA8BAB245207FFC85B0B93336339E /* Pods-Demo_SwiftMatrixLite.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Demo_SwiftMatrixLite.release.xcconfig"; sourceTree = "<group>"; };
+		AD4AA3A1B7BB9BF595F6056115CBF4D2 /* Pods-Demo_SwiftMatrixLite.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Demo_SwiftMatrixLite.modulemap"; sourceTree = "<group>"; };
+		AF81CCFE9F05A73BD34F536FDB78D2DF /* SwiftMatrixLite.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftMatrixLite.debug.xcconfig; sourceTree = "<group>"; };
+		B63DB4C4329ECE728258721A401BE8D1 /* SwiftMatrixLite.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftMatrixLite.modulemap; sourceTree = "<group>"; };
 		B76772D64629DD37ABA46B8F59D53505 /* Pods_Demo_SwiftMatrixLite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Demo_SwiftMatrixLite.framework; path = "Pods-Demo_SwiftMatrixLite.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D82FABF9ACAC2B371BEE49C0CA95879E /* Pods-Demo_SwiftMatrixLite-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Demo_SwiftMatrixLite-dummy.m"; sourceTree = "<group>"; };
-		F5E421C454BEA7F3E63BC5B667F44F94 /* SwiftMatrixLite.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftMatrixLite.debug.xcconfig; sourceTree = "<group>"; };
-		FDEB4FF7C91C9EE914A88F5D8D5FC9D0 /* Pods-Demo_SwiftMatrixLite-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Demo_SwiftMatrixLite-umbrella.h"; sourceTree = "<group>"; };
+		BC37B65F57E4FAC26A19A8076619C08F /* Pods-Demo_SwiftMatrixLite-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Demo_SwiftMatrixLite-Info.plist"; sourceTree = "<group>"; };
+		BFED5BD80740C0D24E3A11C2A4878F00 /* Pods-Demo_SwiftMatrixLite.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Demo_SwiftMatrixLite.release.xcconfig"; sourceTree = "<group>"; };
+		CD781D9049DDA638B4CAC870B58013A3 /* Pods-Demo_SwiftMatrixLite-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Demo_SwiftMatrixLite-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D202BD333B5DB109740ADA04FBEA4DB6 /* Pods-Demo_SwiftMatrixLite-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Demo_SwiftMatrixLite-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,76 +61,83 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C9220AC3CCBA32C83FF76F3FB93E003D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C286E0E08CABE62BDFF2977E0645BD6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00DA28CD53CC38F2D5EA51A9C92795C3 /* Pods-Demo_SwiftMatrixLite */ = {
+		160618E360684F6D9558C78BB4A887E8 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3D5D3095F4B2DA261A02B73F1603033B /* Pods-Demo_SwiftMatrixLite.modulemap */,
-				2C184DDDE43DEB89836892E90F285AD5 /* Pods-Demo_SwiftMatrixLite-acknowledgements.markdown */,
-				87A329274E2DFAF5284431D7C5E1FE45 /* Pods-Demo_SwiftMatrixLite-acknowledgements.plist */,
-				D82FABF9ACAC2B371BEE49C0CA95879E /* Pods-Demo_SwiftMatrixLite-dummy.m */,
-				30C10ACADA76F4656D6393BDE838480F /* Pods-Demo_SwiftMatrixLite-Info.plist */,
-				FDEB4FF7C91C9EE914A88F5D8D5FC9D0 /* Pods-Demo_SwiftMatrixLite-umbrella.h */,
-				2AED7F27578D8AB73D095784958AA2B2 /* Pods-Demo_SwiftMatrixLite.debug.xcconfig */,
-				9FBFA8BAB245207FFC85B0B93336339E /* Pods-Demo_SwiftMatrixLite.release.xcconfig */,
+				37799E1BEB84C0A23E169055663F623F /* SwiftMatrixLite */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		2D49240AFC11BD417C900EBCF028B486 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				47BD5CD7E2E99EE31D7EB30BD4A60420 /* Pods-Demo_SwiftMatrixLite */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		37799E1BEB84C0A23E169055663F623F /* SwiftMatrixLite */ = {
+			isa = PBXGroup;
+			children = (
+				2E534450901AD2BF3EF043CF85958A3C /* litemat.swift */,
+				7F52C184E774DE8A5D82B5C26D234259 /* Pod */,
+				596B1563FF60946F920E9FC7055829BF /* Support Files */,
+			);
+			name = SwiftMatrixLite;
+			path = ../../SwiftMatrixLite;
+			sourceTree = "<group>";
+		};
+		47BD5CD7E2E99EE31D7EB30BD4A60420 /* Pods-Demo_SwiftMatrixLite */ = {
+			isa = PBXGroup;
+			children = (
+				AD4AA3A1B7BB9BF595F6056115CBF4D2 /* Pods-Demo_SwiftMatrixLite.modulemap */,
+				CD781D9049DDA638B4CAC870B58013A3 /* Pods-Demo_SwiftMatrixLite-acknowledgements.markdown */,
+				9057DD8840507B8725DEA8FBFDA6A48F /* Pods-Demo_SwiftMatrixLite-acknowledgements.plist */,
+				D202BD333B5DB109740ADA04FBEA4DB6 /* Pods-Demo_SwiftMatrixLite-dummy.m */,
+				7F16AFEDF8C128AC47D8108AF3CFD4AB /* Pods-Demo_SwiftMatrixLite-frameworks.sh */,
+				BC37B65F57E4FAC26A19A8076619C08F /* Pods-Demo_SwiftMatrixLite-Info.plist */,
+				4F93E82A685B56A1A728D117A10D6AE0 /* Pods-Demo_SwiftMatrixLite-umbrella.h */,
+				101005955433C2044E9C519B2B6D4E3E /* Pods-Demo_SwiftMatrixLite.debug.xcconfig */,
+				BFED5BD80740C0D24E3A11C2A4878F00 /* Pods-Demo_SwiftMatrixLite.release.xcconfig */,
 			);
 			name = "Pods-Demo_SwiftMatrixLite";
 			path = "Target Support Files/Pods-Demo_SwiftMatrixLite";
 			sourceTree = "<group>";
 		};
-		2C353E22044D691C966316B7F6E08007 /* Products */ = {
+		596B1563FF60946F920E9FC7055829BF /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				B76772D64629DD37ABA46B8F59D53505 /* Pods_Demo_SwiftMatrixLite.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		4889341900F82DF0067EAE898B7BA4E9 /* SwiftMatrixLite */ = {
-			isa = PBXGroup;
-			children = (
-				65E7AA6753450590A86EAA2ABD2A2210 /* Pod */,
-				9FEDE66F518D35EBD49B4F3DB66C40AC /* Support Files */,
-			);
-			name = SwiftMatrixLite;
-			path = /Users/xuhaobo/Documents/github/SwiftMatrixLite/SwiftMatrixLite;
-			sourceTree = "<absolute>";
-		};
-		5CC9F8BF8B6A0AA74CC866F8BAB1328E /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				4889341900F82DF0067EAE898B7BA4E9 /* SwiftMatrixLite */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		65E7AA6753450590A86EAA2ABD2A2210 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				282813FC145535FF361E8318DBCB3F35 /* LICENSE */,
-				48A088C74159C6B9BA52CC210EC06132 /* SwiftMatrixLite.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		9FEDE66F518D35EBD49B4F3DB66C40AC /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				F5E421C454BEA7F3E63BC5B667F44F94 /* SwiftMatrixLite.debug.xcconfig */,
-				4803B14500E587CFCAAD93156067F0C4 /* SwiftMatrixLite.release.xcconfig */,
+				B63DB4C4329ECE728258721A401BE8D1 /* SwiftMatrixLite.modulemap */,
+				8FDA75052CC4F0E5C848F7E68596645B /* SwiftMatrixLite-dummy.m */,
+				21B0C51ABC4F3FF6F9FFD15354C2046D /* SwiftMatrixLite-Info.plist */,
+				3383E8CCFF2DE79196DEBE863A379C91 /* SwiftMatrixLite-prefix.pch */,
+				93C9B853E0470CEE035BD9F1E1BC0CEC /* SwiftMatrixLite-umbrella.h */,
+				AF81CCFE9F05A73BD34F536FDB78D2DF /* SwiftMatrixLite.debug.xcconfig */,
+				678F8BEB8A20A8C36DB5648CC1F88357 /* SwiftMatrixLite.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "../Demo_SwiftMatrixLite/Pods/Target Support Files/SwiftMatrixLite";
 			sourceTree = "<group>";
 		};
-		ACDCF4E00111DA71CAD5A432106BC5F3 /* Targets Support Files */ = {
+		7F52C184E774DE8A5D82B5C26D234259 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				00DA28CD53CC38F2D5EA51A9C92795C3 /* Pods-Demo_SwiftMatrixLite */,
+				5DCB8593A48EDF0653B6AF7F278C7C63 /* LICENSE */,
+				8FE59213635C7BEEE8FE4A47FE4E8277 /* SwiftMatrixLite.podspec */,
 			);
-			name = "Targets Support Files";
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -145,10 +152,10 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				5CC9F8BF8B6A0AA74CC866F8BAB1328E /* Development Pods */,
+				160618E360684F6D9558C78BB4A887E8 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				2C353E22044D691C966316B7F6E08007 /* Products */,
-				ACDCF4E00111DA71CAD5A432106BC5F3 /* Targets Support Files */,
+				DF8C7F54A378EE7AFEA92B83439616AA /* Products */,
+				2D49240AFC11BD417C900EBCF028B486 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -160,9 +167,26 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		DF8C7F54A378EE7AFEA92B83439616AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B76772D64629DD37ABA46B8F59D53505 /* Pods_Demo_SwiftMatrixLite.framework */,
+				7980EEDE5D229688E451E003F4F81D9F /* SwiftMatrixLite.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		108A093C1A3F872AA08C0A4C660CD4B7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E9466874AE572530F7B66D042B2935C /* SwiftMatrixLite-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C2530FF10DC938E875580F43213E2405 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -193,6 +217,24 @@
 			productReference = B76772D64629DD37ABA46B8F59D53505 /* Pods_Demo_SwiftMatrixLite.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		67AAC47A4489FB29BF0F707006A8D09B /* SwiftMatrixLite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 621D61AF11A0148EBFFFE3595FDC792D /* Build configuration list for PBXNativeTarget "SwiftMatrixLite" */;
+			buildPhases = (
+				108A093C1A3F872AA08C0A4C660CD4B7 /* Headers */,
+				588EB26EBD57253617A4DA9D1582E06F /* Sources */,
+				C9220AC3CCBA32C83FF76F3FB93E003D /* Frameworks */,
+				5C78364681632048E9CA955176697550 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftMatrixLite;
+			productName = SwiftMatrixLite;
+			productReference = 7980EEDE5D229688E451E003F4F81D9F /* SwiftMatrixLite.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -211,7 +253,7 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 2C353E22044D691C966316B7F6E08007 /* Products */;
+			productRefGroup = DF8C7F54A378EE7AFEA92B83439616AA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -229,9 +271,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5C78364681632048E9CA955176697550 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		588EB26EBD57253617A4DA9D1582E06F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				626449621E4C68730BF99FFE56E4E1FF /* litemat.swift in Sources */,
+				8E099E5ACD960B6A30D6DFEE77AB4E74 /* SwiftMatrixLite-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DF39914301B8A253A2059AF8A7C16F78 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -254,7 +312,7 @@
 /* Begin XCBuildConfiguration section */
 		1D7A02D7AA68BACBBB0BC68161E494AB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9FBFA8BAB245207FFC85B0B93336339E /* Pods-Demo_SwiftMatrixLite.release.xcconfig */;
+			baseConfigurationReference = BFED5BD80740C0D24E3A11C2A4878F00 /* Pods-Demo_SwiftMatrixLite.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -291,21 +349,40 @@
 			};
 			name = Release;
 		};
-		45BCD0FA56CEAB50ED6C5AE162D98A9A /* Release */ = {
+		45B5DBD1E4262E89548FF0399A5F4F00 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4803B14500E587CFCAAD93156067F0C4 /* SwiftMatrixLite.release.xcconfig */;
+			baseConfigurationReference = 678F8BEB8A20A8C36DB5648CC1F88357 /* SwiftMatrixLite.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftMatrixLite/SwiftMatrixLite-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftMatrixLite/SwiftMatrixLite-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
 				);
+				MODULEMAP_FILE = "Target Support Files/SwiftMatrixLite/SwiftMatrixLite.modulemap";
+				PRODUCT_MODULE_NAME = SwiftMatrixLite;
+				PRODUCT_NAME = SwiftMatrixLite;
 				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -433,26 +510,9 @@
 			};
 			name = Release;
 		};
-		C3F97CA80762CCAAD1D22250B76FB316 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F5E421C454BEA7F3E63BC5B667F44F94 /* SwiftMatrixLite.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
 		D3EC65EEF86D68038935153AF6EE9DEA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2AED7F27578D8AB73D095784958AA2B2 /* Pods-Demo_SwiftMatrixLite.debug.xcconfig */;
+			baseConfigurationReference = 101005955433C2044E9C519B2B6D4E3E /* Pods-Demo_SwiftMatrixLite.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -488,6 +548,42 @@
 			};
 			name = Debug;
 		};
+		D7FC463AB724CEFCFD470890E7CE9520 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF81CCFE9F05A73BD34F536FDB78D2DF /* SwiftMatrixLite.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftMatrixLite/SwiftMatrixLite-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftMatrixLite/SwiftMatrixLite-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftMatrixLite/SwiftMatrixLite.modulemap";
+				PRODUCT_MODULE_NAME = SwiftMatrixLite;
+				PRODUCT_NAME = SwiftMatrixLite;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -500,11 +596,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AE1AF01E30576F7CB84C60D601828331 /* Build configuration list for PBXAggregateTarget "SwiftMatrixLite" */ = {
+		621D61AF11A0148EBFFFE3595FDC792D /* Build configuration list for PBXNativeTarget "SwiftMatrixLite" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C3F97CA80762CCAAD1D22250B76FB316 /* Debug */,
-				45BCD0FA56CEAB50ED6C5AE162D98A9A /* Release */,
+				D7FC463AB724CEFCFD470890E7CE9520 /* Debug */,
+				45B5DBD1E4262E89548FF0399A5F4F00 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
